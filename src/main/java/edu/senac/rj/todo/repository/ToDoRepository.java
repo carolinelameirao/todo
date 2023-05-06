@@ -1,10 +1,11 @@
 package edu.senac.rj.todo.repository;
 
-import edu.senac.rj.todo.model.ToDo;
+import java.util.UUID;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import java.util.UUID;
+import edu.senac.rj.todo.model.ToDo;
 
 @Repository("toDoRepository")
 public interface ToDoRepository extends JpaRepository<ToDo, UUID> {

@@ -1,13 +1,14 @@
 package edu.senac.rj.todo.service;
 
-import edu.senac.rj.todo.model.ToDo;
-import edu.senac.rj.todo.model.enums.TodoStatus;
-import edu.senac.rj.todo.repository.ToDoRepository;
-import org.springframework.stereotype.Service;
-
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.UUID;
+
+import org.springframework.stereotype.Service;
+
+import edu.senac.rj.todo.model.ToDo;
+import edu.senac.rj.todo.model.enums.TodoStatus;
+import edu.senac.rj.todo.repository.ToDoRepository;
 
 @Service
 public class ToDoService {
