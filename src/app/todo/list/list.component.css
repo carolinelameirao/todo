@@ -1,0 +1,57 @@
+.title {
+  margin-inline: 5%;
+  font-weight: bolder;
+}
+
+table {
+  width: 90%;
+  margin-inline: 5%;
+}
+
+.full-width {
+  font-size: 14px;
+  width: 100%;
+}
+
+.btn-table-container {
+  margin-inline: 5%;
+  padding-bottom: 16px;
+}
+
+.btn-table {
+  margin-left: 8px;
+}
+
+td > a {
+  text-decoration: none;
+}
+
+td#edit > a {
+  color: blue;
+}
+
+td#remove > a {
+  color: red;
+}
+
+.mat-icon {
+  vertical-align: middle;
+}
+
+.demo-table {
+  width: 100%;
+}
+
+.mat-row mat-cell {
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  cursor: pointer;
+}
+
+.mat-row:hover .mat-cell {
+  border-color: currentColor;
+}
+
+.table-row-is-clicked {
+  font-weight: bold;
+}
